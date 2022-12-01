@@ -9,7 +9,9 @@ function Template(props) {
                 <img src={props.image} alt="image loading..." />
             </div>
             <div className='title'>
+                <a href={props.a}>
                 <h3>{props.title}</h3>
+                </a>
                 <p>{props.description}</p>
             </div>
         </div>
